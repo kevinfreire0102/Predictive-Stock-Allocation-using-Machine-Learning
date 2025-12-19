@@ -26,10 +26,18 @@ ml-portfolio-project/
 │   ├── models.py         # Model definitions (RF, XGB, LGBM)
 │   ├── backtester.py     # Rolling window logic
 │   └── evaluation.py     # Portfolio metrics calculation
+├── tests/                 
+│   ├── test_data_loader.py
+│   ├── test_features.py
 ├── data/
 │   └── raw/             # Original stock price data
 ├── results/             # Output plots and metrics
+│   └── plots/  
+├── proposal.md
+├── README.md
+├── setup.py
 └── requirements.txt     # Pip dependencies
+
 
 ## Results
 - Random Forest: 2.294 Sharpe Ratio
