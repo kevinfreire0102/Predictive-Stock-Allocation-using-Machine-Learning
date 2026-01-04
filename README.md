@@ -108,3 +108,29 @@ Utils: requests, multitasking, frozendict, beautifulsoup4, lxml
 ## Requirements
 - **Python 3.11**
 - **scikit-learn** (==1.7.0), **pandas** (==2.1.1), **numpy** (==1.26.4), **yfinance** (==0.2.40), **xgboost**, **lightgbm**, **matplotlib**, **seaborn**, **requests**, **multitasking**, **frozendict**, **beautifulsoup4**, **lxml**
+
+```markdown
+## 4. Project Structure
+The project follows a modular data science structure:
+
+```text
+ml-portfolio-project/
+├── main.py              # Main entry point
+├── src/                 # Source code
+│   ├── data_loader.py   # Data loading/preprocessing
+│   ├── features.py      # Technical indicators engineering
+│   ├── models.py        # Model definitions (RF, XGB, LGBM)
+│   ├── backtester.py    # Rolling window logic
+│   └── evaluation.py    # Portfolio metrics calculation
+├── tests/               # Unit tests
+│   ├── test_data_loader.py
+│   ├── test_features.py
+├── data/
+│   └── raw/             # Original stock price data
+├── results/             # Output plots and metrics
+│   └── plots/           # Generated graphs (PNG)
+├── proposal.md
+├── README.md
+├── setup.py
+├── AI_usage.md
+└── requirements.txt     # Pip dependencies
