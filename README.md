@@ -5,6 +5,12 @@
 
 ## 2. Setup & Installation
 
+### Clone the repository
+Start by cloning the project to your local machine:
+
+    git clone https://github.com/kevinfreire0102/Predictive-Stock-Allocation-using-Machine-Learning.git
+    cd Predictive-Stock-Allocation-using-Machine-Learning
+
 ### Create environment
 It is recommended to use a virtual environment.
 
@@ -58,7 +64,7 @@ I compared four approaches over a 10-year rolling window (2015-2024), focusing o
 **Key Takeaway:** Contrary to traditional financial theory which relies on Mean-Variance optimization (Markowitz), ensemble Machine Learning models—specifically Random Forest—proved capable of identifying complex signals in technical and macroeconomic data, delivering 10x the returns of the standard approach.
 
 ### Summary Table
-* **Random Forest:** 2.294 Sharpe Ratio (🏆 Winner)
+* **Random Forest:** 2.294 Sharpe Ratio (Winner)
 * **LightGBM:** 2.139 Sharpe Ratio
 * **XGBoost:** 2.077 Sharpe Ratio
 * **Markowitz (Baseline):** 1.927 Sharpe Ratio
